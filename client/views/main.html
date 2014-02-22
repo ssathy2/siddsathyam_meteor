@@ -1,0 +1,49 @@
+<head>
+	<title>Sidd Sathyam's Website</title>
+</head>
+<body>
+	<div id="container">
+		<div class="nav" id="left">
+			<div id="menu">
+				<ul>
+				    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="nine_sixty">	
+				{{> homeTemplate }}
+				<!-- home -->
+
+				<div id="one" class="spacer">
+				</div>
+				<!-- one.spacer -->
+				
+				{{> aboutTemplate }}
+				<!-- about -->
+
+				{{> projectsTemplate }}
+				<!-- projects -->
+
+				{{> contactTemplate }}
+				<!-- contact -->
+            </div> 
+            <!-- nine_sixty -->
+            <div class="footer">
+            	<!-- <div class="links">
+            		<ul>
+						<li><a href="http://github.com/ssathy2">My Github</a></li>
+						<li><a href="http://linkedin.com/in/siddsathyam">My LinkedIn</a></li>
+					</ul>
+            	</div> -->
+            	<!-- links -->
+            </div> 
+            <!-- footer -->
+        <!-- content -->
+		</div>
+		<!-- container -->
+	</div>
+</body>
