@@ -64,6 +64,11 @@ a {
 	height: 100%;
 }
 
+#content {
+	position: relative;
+
+}
+
 #left {
 	height: 900px;
 	width: 80px;
@@ -119,7 +124,7 @@ a {
 	position: relative;
 }
 
-.home {
+#home {
 	width: 100%;
 	height: 100%;
 	margin-top: 10px;
@@ -133,7 +138,7 @@ a {
 }
 
 /* About Me Styles */
-.about {
+#about {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
