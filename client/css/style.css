@@ -26,9 +26,10 @@ a:visited {
 /* Navigation */
 
 .navigation li{
-	padding:0 0 0 50px;
+	padding:0 10px 0 50px;
 	font-size: 1.5em;
 }
+
 .navigation li:hover{
 	cursor:pointer;
 	color: #a9d3d0;
