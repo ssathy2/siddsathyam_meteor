@@ -63,7 +63,7 @@ a {
 }
 
 #content {
-	padding-top: 100px;	
+	padding-top: 100px;
 	position: relative;
 	background-color: #2A2C2E;
 }
@@ -121,8 +121,7 @@ a {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding: 20px 0 20px 0;
 	margin-bottom: 75px;
 	position: relative;
 }
@@ -144,4 +143,36 @@ a {
 
 #education_container p {
 	font-size: 15px;
+}
+
+/* Projects Styles */
+#projects
+{
+
+}
+
+.project_listing ul
+{
+	list-style: none;
+}
+
+.project_listing p
+{
+	font-size: 15px;
+}
+
+.project_listing h3
+{
+	font-size: 24px;
+}
+
+/* Contact styles */
+.contact_container h1
+{
+
+}
+
+.social-icons h3
+{
+	padding-bottom: 10px;
 }

@@ -1,12 +1,11 @@
 jQuery(document).ready(function ($) {
-    $(window).stellar();
+    // $(window).stellar();
 
     var links = $('.navigation').find('li');
     slide = $('.slide');
     button = $('.button');
     mywindow = $(window);
     htmlbody = $('html,body');
-
 
     slide.waypoint(function (event, direction) {
 
@@ -20,7 +19,7 @@ jQuery(document).ready(function ($) {
         }
 
     });
- 
+
     mywindow.scroll(function () {
         if (mywindow.scrollTop() == 0) {
             $('.navigation li[data-slide="1"]').addClass('active');
@@ -44,8 +43,5 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
-
     });
-
-
 });
