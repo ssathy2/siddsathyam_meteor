@@ -1,1 +1,1 @@
-require('newrelic');
+var newrelic = require('newrelic');
