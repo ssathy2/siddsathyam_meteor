@@ -18,6 +18,11 @@
 		<h3>
 			<a href="{{projectURL}}">{{projectName}}</a>
 		</h3>
+		<ul class="horizontal_image_listing">
+			{{#each projectImages}}
+				<li><a href="{{this}}"><img src="{{this}}"/></a></li>
+			{{/each}}
+		</ul>
 		<p>
 			{{projectDescription}}
 		</p>

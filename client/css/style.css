@@ -1,7 +1,6 @@
 /* Global */
 
 body {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
 	color: #8a8683;
@@ -201,4 +200,5 @@ a:visited {
 }
 #slide4 h2 {
 	line-height: 1em;
+}
 }
