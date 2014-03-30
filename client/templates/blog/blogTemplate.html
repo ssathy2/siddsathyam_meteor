@@ -1,0 +1,16 @@
+<template name="blogTemplate">
+  {{#each blogPosts}}
+    {{>blogPostTemplate}}
+  {{/each}}
+</template>
+
+<template name="blogPostTemplate">
+  <div class="blogPostContainer">
+    <h2>
+      {{blogPostTitle}}
+    </h2>
+    <p>
+      {{blogPostText}}
+    </p>
+  </div>
+</template>
