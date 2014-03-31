@@ -6,11 +6,23 @@
 
 <template name="blogPostTemplate">
   <div class="blogPostContainer">
-    <h2>
+    <h2> <a href="/blog/{{_id}}">
       {{blogPostTitle}}
-    </h2>
-    <p>
-      {{blogPostText}}
-    </p>
+    </a> </h2>
+  </div>
+</template>
+
+<template name="blogPostDetail">
+  <div class="blogPostDetailContainer">
+    <div class="blogPostDetailHeader">
+      <h2>
+        {{blogPostTitle}}
+      </h2>
+    </div>
+    <div class="blogPostDetailContent">
+      <p>
+        {{blogPostText}}
+      </p>
+    </div>
   </div>
 </template>
