@@ -1,26 +1,32 @@
 var projectsData = [
 {
-	projectName: 		'Hoarders',
-	projectDescription: 'This project was created out of frustration that I (and possibly many other people) have: how the heck do I manage data in different cloud services? This project attempts to solve this issue using some python and in the future, an OSX app. Still in development.',
-	projectURL: 		'https://github.com/ssathy2/hoarders',
-	projectImages: []
-},
-{
-	projectName: 		'SWAiOS',
-	projectDescription: 'The current Southwest iPhone iOS app is terrible and I wanted to create something that\'s a lot better. This app allows me to play around with a reactive programming framework for iOS called Reactive Cocoa and also includes some neat transtions and blurring effects. I\'ll probably reuse a lot of the categories in future projects as they\'re really useful. Still in development.',
-	projectURL:  		'https://github.com/ssathy2/SWAiOS',
+	projectName: 		'Hakken',
+	projectDescription: 'A native iOS Hackernews (<a href=\'https://news.ycombinator.com/news\'>YCombinator News<\/a>) app that I\'m currently working on.',
+	projectURL:  		'https://github.com/ssathy2/Hakken',
 	projectImages:
 	[
-	  'images/swaios_login.png',
-		'images/swaios_side_panel.png',
-		'images/swaios_user_home.png'
+		'images/',
+		'images/',
+		'images/'
 	]
 },
 {
-	projectName: 	'H4ck3rN3ws',
-	projectDescription: 'A toy iPhone/iPad app for the website Hacker News (https://ycombinator.com/news). The app presents content on website in an easy to read manner for iOS devices. This was the first app I wrote from scratch so the code is most likely really messy and the UI leaves much to be desired.',
-	projectURL:'https://github.com/ssathy2/H4ck3rN3ws',
-	projectImages: []
+	projectNamekey: 	'hn-wrapper',
+	projectDescription: 'With the release of the official Hackernews (<a href=\'https://news.ycombinator.com/news\'>YCombinator News</a>) API, I didn\'t like the way in which comments and stories were being returned from the API so I created a wrapper around that API that will return full JSON responses instead of arrays of IDs',
+	projectURL:  		'https://github.com/ssathy2/hn-wrapper',
+	projectImages:[]
+
+},
+{
+	projectName: 		'SWAiOS',
+	projectDescription: 'The current Southwest iPhone iOS app is terrible and I wanted to create something that\'s a lot better. This app allows me to play around with a reactive programming framework for iOS called Reactive Cocoa and also includes some neat transtions and blurring effects. I\'ll probably reuse a lot of the components from this project as they will prove to be very useful in future projects.',
+	projectURL:  		'https://github.com/ssathy2/SWAiOS',
+	projectImages:
+	[
+	  	'images/swaios_login.png',
+		'images/swaios_side_panel.png',
+		'images/swaios_user_home.png'
+	]
 },
 {
 	projectName:    'My Website',

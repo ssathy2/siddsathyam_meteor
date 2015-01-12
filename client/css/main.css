@@ -18,9 +18,8 @@
 html {
 	height	: 100%;
 	width	: 100%;
-/*	font-family: "Arial", Helvetica, sans-serif;*/
 	font-family: corbert_regular;
-	/*-webkit-font-smoothing: subpixel-antialiased;*/
+	-webkit-font-smoothing: subpixel-antialiased;
 }
 
 body {
@@ -52,22 +51,6 @@ h3 {
 	font-size: 15px;
 	font-weight: normal;
 }
-
-/*dd {
-	font-family: "Arial", Helvetica, sans-serif;
-}
-
-dt {
-	font-family: "Arial", Helvetica, sans-serif;
-}
-
-ul {
-	font-family: "Arial", Helvetica, sans-serif;
-}
-
-li {
-	font-family: "Arial", Helvetica, sans-serif;
-}*/
 
 a {
 	outline: none;
