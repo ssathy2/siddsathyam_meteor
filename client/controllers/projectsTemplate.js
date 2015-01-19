@@ -1,18 +1,18 @@
 var projectsData = [
 {
 	projectName: 		'Hakken',
-	projectDescription: 'A native iOS Hackernews (<a href=\'https://news.ycombinator.com/news\'>YCombinator News<\/a>) app that I\'m currently working on.',
+	projectDescription: 'A native iOS Hackernews app that I\'m currently working on.',
 	projectURL:  		'https://github.com/ssathy2/Hakken',
 	projectImages:
 	[
-		'images/',
-		'images/',
-		'images/'
+		'images/hakken_top_stories.png',
+		'images/hakken_story_detail.png',
+		'images/hakken_comments.png'
 	]
 },
 {
-	projectNamekey: 	'hn-wrapper',
-	projectDescription: 'With the release of the official Hackernews (<a href=\'https://news.ycombinator.com/news\'>YCombinator News</a>) API, I didn\'t like the way in which comments and stories were being returned from the API so I created a wrapper around that API that will return full JSON responses instead of arrays of IDs',
+	projectName: 	'hn-wrapper',
+	projectDescription: 'With the release of the official Hackernews (https://news.ycombinator.com/news) API, I didn\'t like the way in which comments and stories were being returned from the API so I created a wrapper around that API that will return full JSON responses instead of arrays of IDs',
 	projectURL:  		'https://github.com/ssathy2/hn-wrapper',
 	projectImages:[]
 

@@ -1,24 +1,14 @@
 @charset "UTF-8";
 
 @font-face {
-	font-family: homizio_nova_regular;
-	src: url('fonts/homizio_nova/regular.ttf');
-}
-
-@font-face {
-	font-family: corbert_regular;
-	src: url('fonts/corbert/Corbert-Regular.otf');
-}
-
-@font-face{
-	font-family: corbert_italic;
-	src: url('fonts/corbert/Corbert-Italic.otf');
+	font-family: futura_regular;
+	src: url('fonts/futura/Futura_regular.ttc');
 }
 
 html {
 	height	: 100%;
 	width	: 100%;
-	font-family: corbert_regular;
+	font-family: futura_regular;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 

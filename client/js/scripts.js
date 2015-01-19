@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
 
     });
 
-    mywindow.scroll(function () {
+    mywindow.scroll(function () {   
         if (mywindow.scrollTop() == 0) {
             $('.navigation li[data-slide="1"]').addClass('active');
             $('.navigation li[data-slide="2"]').removeClass('active');
@@ -36,12 +36,14 @@ jQuery(document).ready(function ($) {
     links.click(function (e) {
         e.preventDefault();
         dataslide = $(this).attr('data-slide');
+        console.log("moo");
         goToByScroll(dataslide);
     });
 
     button.click(function (e) {
         e.preventDefault();
         dataslide = $(this).attr('data-slide');
+        console.log("moo");
         goToByScroll(dataslide);
     });
 });

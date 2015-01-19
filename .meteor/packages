@@ -4,5 +4,7 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-insecure
-iron-router
+iron:router
+jquery
+noorderstorm:stellar
+jquery-waypoints
