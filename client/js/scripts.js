@@ -1,3 +1,4 @@
+require('newrelic');
 Template.navTemplate.rendered = function(){
     $(window).stellar();
     var links = $('.navigation').find('li');
