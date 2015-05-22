@@ -47,12 +47,7 @@ a:visited {
 	width:100%;
 	height:auto;
 	position: relative;
-	padding:140px 0;
-}
-
-#slide1
-{
-	padding-top:50px;
+	padding:75px 0;
 }
 
 .slide h1 {
@@ -139,9 +134,6 @@ a:visited {
 }
 
 }
-
-
-
 
 /* Mobile */
 @media screen and (max-width: 480px) {

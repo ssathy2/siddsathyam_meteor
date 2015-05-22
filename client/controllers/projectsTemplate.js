@@ -1,13 +1,14 @@
 var projectsData = [
 {
 	projectName: 		'Hakken',
-	projectDescription: 'A native iOS Hackernews app that I\'m currently working on.',
+	projectDescription: 'A native iOS Hackernews app that I\'m currently working on. This app is on the app store.',
 	projectURL:  		'https://github.com/ssathy2/Hakken',
 	projectImages:
 	[
-		'images/hakken_top_stories.png',
-		'images/hakken_story_detail.png',
-		'images/hakken_comments.png'
+		'images/topstories6.png',
+		'images/detail6.png',
+		'images/comments6.png',
+		'images/savedstories6.png'
 	]
 },
 {

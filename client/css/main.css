@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 @font-face {
-	font-family: futura_regular;
-	src: url('fonts/futura/Futura_regular.ttc');
+	font-family: Montserrat;
+	src: url(http://fonts.googleapis.com/css?family=Montserrat);
 }
 
 html {
 	height	: 100%;
 	width	: 100%;
-	font-family: futura_regular;
+	font-family: 'Montserrat', sans-serif;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -51,9 +51,7 @@ a {
 	height: 100%;
 }
 
-#content
-{
-	padding-top: 100px;
+#content {
 	position: relative;
 	background-color: #2A2C2E;
 }
