@@ -1,5 +1,4 @@
-require('newrelic');
-Template.navTemplate.rendered = function(){
+Template.homeContainerTemplate.rendered = function(){
     $(window).stellar();
     var links = $('.navigation').find('li');
     slide = $('.slide');
@@ -10,7 +9,6 @@ Template.navTemplate.rendered = function(){
 
     slide.waypoint(function (direction) {
         dataslide = $(this).attr('data-slide');
-    	
         if (direction === 'down') {
             $('.navigation li[data-slide="' + dataslide + '"]').prev().removeClass('active');
             $('.navigation li[data-slide="' + dataslide + '"]').addClass('active');
@@ -21,8 +19,7 @@ Template.navTemplate.rendered = function(){
         }
     });
 
-    mywindow.scroll(function () { 
-        console.log(mywindow.scrollTop())  
+    mywindow.scroll(function () {   
         if (mywindow.scrollTop() == 0) {
             $('.navigation li[data-slide="1"]').addClass('active');
             $('.navigation li[data-slide="2"]').removeClass('active');
