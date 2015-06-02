@@ -171,7 +171,25 @@ a {
 
 }
 
+#github
+{
+	margin-top: 15px;
+	display: inline-block;
+}
+
+#linkedin
+{
+	margin-top: 15px;
+	display: inline-block;
+}
+
 .social-icons h3
 {
 	padding-bottom: 10px;
+}
+
+.social-icons img
+{
+	height: 64px;
+	width: 64px;
 }
