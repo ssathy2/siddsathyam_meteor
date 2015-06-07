@@ -15,3 +15,7 @@ Router.map(function () {
     template: 'projectsTemplate'
   });
 });
+
+Router.route('/signin', function () {
+  this.render('signinTemplate');
+});
