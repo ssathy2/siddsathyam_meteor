@@ -1,5 +1,6 @@
 Router.configure({
-  layoutTemplate: 'masterLayout'
+  layoutTemplate: 'masterLayout',
+  notFoundTemplate: '404Page'
 });
 
 Router.map(function () {
