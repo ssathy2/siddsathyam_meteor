@@ -1,0 +1,20 @@
+<template name="blogIndexTemplate">
+    <div class="posts">
+        {{ #each posts }}
+        <section class="post">
+            <header class="post-header">
+                <h2 class="post-title">{{ title }}</h2>
+                <p class="post-meta">
+                    Posted on {{ formatDate publishedAt }}
+                </p>
+            </header>
+
+            <div class="post-description">
+                <p>
+                    {{ excerpt }}
+                </p>
+            </div>
+        </section>
+        {{ /each }}
+    </div>
+</template>
