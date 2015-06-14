@@ -19,6 +19,12 @@ var projectsData = [
 
 },
 {
+	projectName:    'siddsathyam.com',
+	projectDescription: 'I didn\'t want to create my personal website with an existing platform like Wordpress so instead I created my own website from scratch using MeteorJS. This is a way for me to play around with MeteorJS and web development in general. Hosted on Digital Ocean.',
+	projectURL: 'https://github.com/ssathy2/siddsathyam_meteor',
+	projectImages: []
+},
+{
 	projectName: 		'SWAiOS',
 	projectDescription: 'The current Southwest iPhone iOS app is terrible and I wanted to create something that\'s a lot better. This app allows me to play around with a reactive programming framework for iOS called Reactive Cocoa and also includes some neat transtions and blurring effects. I\'ll probably reuse a lot of the components from this project as they will prove to be very useful in future projects.',
 	projectURL:  		'https://github.com/ssathy2/SWAiOS',
@@ -29,12 +35,6 @@ var projectsData = [
 		'images/swaios_user_home.png'
 	]
 },
-{
-	projectName:    'My Website',
-	projectDescription: 'I didn\'t want to create my personal website with an existing platform like Wordpress so instead I created my own website from scratch using MeteorJS. This is a way for me to play around with MeteorJS and web development in general. Hosted on Digital Ocean.',
-	projectURL: 'https://github.com/ssathy2/siddsathyam_meteor',
-	projectImages: []
-}
 ];
 
 Template.projectsTemplate.helpers({

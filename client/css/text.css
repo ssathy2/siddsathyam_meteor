@@ -1,0 +1,19 @@
+.title {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.2em;
+}
+
+.description {
+    font-family: Georgia, "Cambria", serif;
+    color: #444;
+    line-height: 1.8em;
+}
+
+.description h3 {
+    margin: 0.5em 0 0.5em 0;    
+}
+
+.description h4 {
+    margin: 0.5em 0 0.5em 0;
+}

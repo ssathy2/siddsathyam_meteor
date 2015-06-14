@@ -8,10 +8,6 @@
     letter-spacing: 0.1em;
 }
 
-.content {
-    padding: 2em 1em 0;
-}
-
 .post {
     padding-bottom: 2em;
 }
@@ -43,18 +39,19 @@
     background: #999;
     font-size: 80%;
 }
-    .post-category-design {
-        background: #5aba59;
-    }
-    .post-category-pure {
-        background: #4d85d1;
-    }
-    .post-category-yui {
-        background: #8156a7;
-    }
-    .post-category-js {
-        background: #df2d4f;
-    }
+
+.post-category-design {
+    background: #5aba59;
+}
+.post-category-pure {
+    background: #4d85d1;
+}
+.post-category-yui {
+    background: #8156a7;
+}
+.post-category-js {
+    background: #df2d4f;
+}
 
 .post-images {
     margin: 1em 0;

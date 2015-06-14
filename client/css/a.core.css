@@ -28,13 +28,13 @@ h3 {
 }
 
 .header {
-    text-align: center;
+    text-align: left;
     top: auto;
     margin: 3em auto;
 }
 
 .sidebar {
-    background: rgb(61, 79, 93);
+    background:#2A2C2E;
     color: #fff;
 }
 
@@ -42,9 +42,7 @@ h3 {
 .brand-tagline {
     margin: 0;
 }
-.brand-title {
-    text-transform: uppercase;
-}
+
 .brand-tagline {
     font-weight: 300;
     color: rgb(176, 202, 219);
@@ -82,8 +80,8 @@ h3 {
     }
 
     .header {
-        margin: 80% 2em 0;
-        text-align: right;
+        margin: 80% 1em 0;
+        text-align: left;
     }
 
     .sidebar {

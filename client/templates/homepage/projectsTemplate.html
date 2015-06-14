@@ -1,30 +1,34 @@
 <template name="projectsTemplate">
-	<div class="slide" id="slide3" data-slide="3">
-		<div id="projects">
-			<h1> Side-Projects </h1>
-			<div class="project_listing">
-			    <ul>
-			      {{#each projects}}
-			      	{{>project}}
-			      {{/each}}
-			    </ul>
-  			</div>
+	<div id="projects">
+        <div class="title">
+            <h1> Side-Projects </h1>    
+        </div>
+		<div class="project_listing">
+		    <ul style="list-style: none;">
+		      {{#each projects}}
+		      	{{>project}}
+		      {{/each}}
+		    </ul>
 		</div>
 	</div>
 </template>
 
 <template name="project">
 	<li>
-		<h3>
-			<a href="{{projectURL}}">{{projectName}}</a>
-		</h3>
-		<ul class="horizontal_image_listing">
-			{{#each projectImages}}
-				<li><a href="{{this}}"><img src="{{this}}"/></a></li>
-			{{/each}}
-		</ul>
-		<p>
-			{{projectDescription}}
-		</p>
+        <div class="title">
+            <h3> <a href="{{projectURL}}">{{projectName}}</a> </h3>    
+        </div>
+        <div class="description">
+           <div>
+               {{#each projectImages}}
+                <div class="pure-u-1-5  pure-u-md-1-4 pure-u-sm-1-2">
+                    <a href="{{this}}"><img class="pure-img" src="{{this}}"/></a>
+                </div>
+            	{{/each}}
+                <p>
+            	   {{projectDescription}}
+                </p>    
+           </div>
+        </div>
 	</li>
 </template>
