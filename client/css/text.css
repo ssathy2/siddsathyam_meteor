@@ -17,3 +17,22 @@
 .description h4 {
     margin: 0.5em 0 0.5em 0;
 }
+
+#profile-img {
+    margin: 0 auto;
+} 
+
+.social-icons {
+    margin-top: 1em;
+    text-align: center;
+    display: inline-flex;
+}
+
+#linkedin {
+    padding-left:10px;
+}
+
+.social-icons img {
+    height: 44px;
+	width: 44px;
+}
