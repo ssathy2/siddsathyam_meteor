@@ -5,9 +5,6 @@
 
 standard-app-packages
 iron:router
-jquery
-noorderstorm:stellar
-jquery-waypoints
 mycartio:newrelic
 ryw:blog
 accounts-ui
