@@ -73,7 +73,24 @@ h3 {
     text-decoration: none;
 }
 
-@media (min-width: 48em) {
+@media screen and (max-device-width : 599px) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 10% 1em 0;
+        text-align: center;
+    }
+
+    .sidebar {
+        position: relative;
+        bottom:0;
+    }
+}
+
+@media screen and (min-device-width : 600px) {
     .content {
         padding: 2em 3em 0;
         margin-left: 25%;
