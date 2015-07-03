@@ -3,20 +3,18 @@ Router.configure({
   notFoundTemplate: '404Page'
 });
 
-Router.map(function () {
-  this.route('about', {
-    path: '/',
-    template: 'aboutTemplate'
-  });
-});
-
-Router.map(function () {
-  this.route('projects', {
-    path: '/projects',
-    template: 'projectsTemplate'
-  });
+Router.route('/', function() {
+  this.render('aboutTemplate');
 });
 
 Router.route('/signin', function () {
   this.render('signinTemplate');
+});
+
+Router.route('/projects', function () {
+  this.render('projectsTemplate');
+});
+
+Router.route('/about', function () {
+  this.render('aboutTemplate');
 });

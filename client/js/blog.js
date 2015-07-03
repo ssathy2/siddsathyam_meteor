@@ -3,6 +3,12 @@ if (Meteor.isClient) {
     blogIndexTemplate: 'blogIndexTemplate',
     blogShowTemplate: 'blogPostDetailTemplate'
   });
+  
+  Blog.config({
+    comments: {
+      disqusShortname: 'siddsathyam'
+    }
+  });
 }
 
 Blog.config({
