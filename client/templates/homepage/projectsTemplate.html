@@ -1,11 +1,23 @@
 <template name="projectsTemplate">
-	<div id="projects">
+    <div class="projects">
         <div class="title">
-            <h1> Side-Projects </h1>    
+            <h1> Work Projects </h1>
+        </div>
+        <div class="project_listing">
+            <ul style="list-style: none;">
+              {{#each workProjects}}
+                {{>project}}
+              {{/each}}
+            </ul>
+        </div>
+    </div>
+	<div class="projects">
+        <div class="title">
+            <h1> Side Projects </h1>    
         </div>
 		<div class="project_listing">
 		    <ul style="list-style: none;">
-		      {{#each projects}}
+		      {{#each sideProjects}}
 		      	{{>project}}
 		      {{/each}}
 		    </ul>
@@ -17,6 +29,7 @@
 	<li>
         <div class="title">
             <h3> <a href="{{projectURL}}">{{projectName}}</a> </h3>    
+            <h4> {{projectDates}} </h4>
         </div>
         <div class="description">
            <div>
