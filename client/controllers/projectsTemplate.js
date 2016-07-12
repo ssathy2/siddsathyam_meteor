@@ -100,6 +100,7 @@ var projectsData =
 	]
 };
 
+console.log(projectsData)
 Template.projectsTemplate.helpers({
 	workProjects: projectsData["work_projects"],
 	sideProjects: projectsData["side_projects"]

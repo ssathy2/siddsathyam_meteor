@@ -12,3 +12,5 @@ momentjs:moment
 alanning:roles
 accounts-ui
 accounts-password
+standard-minifier-css
+standard-minifier-js
