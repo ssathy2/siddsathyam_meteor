@@ -16,7 +16,7 @@ var projectsData =
 		},
 		{
 			projectName: 	'hn-wrapper',
-			projectDescription: 'With the release of the official Hackernews (https://news.ycombinator.com/news) API (https://github.com/HackerNews/API), I didn\'t like the way in which comments and stories were being returned from the API so I created a wrapper around that API that will return full JSON responses instead of arrays of IDs. The wrapper returns Top Stories, Ask HN stories, new stories, Jobs, and Show HN stories. This wrapper is live in two places: Heroku: http://damp-bayou-8238.herokuapp.com/ and Digital Ocean (as a subdomain of siddsathyam.com): http://hackernews-api-newyork1.siddsathyam.com',
+			projectDescription: 'With the release of the official Hackernews (https://news.ycombinator.com/news) API (https://github.com/HackerNews/API), I didn\'t like the way in which comments and stories were being returned from the API so I created a wrapper around that API that will return full JSON responses instead of arrays of IDs. The wrapper returns Top Stories, Ask HN stories, new stories, Jobs, and Show HN stories. This wrapper is live in two places: Heroku: http://damp-bayou-8238.herokuapp.com/ and Digital Ocean at (as a subdomain of siddsathyam.com): http://hackernews-api-newyork1.siddsathyam.com . This project initially started off as a fork of a project hackernews-api-newyork1.siddsathyam.com . This is mainly a way to experiment with RxJS, Redis, Restify, and request.',
 			projectURL:  		'https://github.com/ssathy2/hn-wrapper',
 			projectDates: 		"October 2014 - Present", 
 			projectImages:[]
