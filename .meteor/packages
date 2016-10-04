@@ -5,7 +5,6 @@
 
 standard-app-packages
 iron:router
-mycartio:newrelic
 ryw:blog
 mrt:bootstrap-3
 momentjs:moment

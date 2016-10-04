@@ -91,7 +91,6 @@ mongo-id@1.0.5
 mongo-livedata@1.0.12
 mrt:bootstrap-3@0.3.8
 mrt:underscore-string-latest@2.3.3
-mycartio:newrelic@1.0.5
 npm-bcrypt@0.8.6_2
 npm-mongo@1.4.45
 observe-sequence@1.0.12

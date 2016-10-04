@@ -43,6 +43,45 @@ var projectsData =
 		}
 	],
 	"work_projects" : [
+        {
+			projectName: 		'SyFy Now',
+			projectDates: 		"March 2016 - Present",
+			projectDescription: 'Built app by implementing an iOS cascading sytle system which worked by applying cascading styles to the existing NBC app store app. The app is similar in functionality to the NBC app but the fonts, colors, isting NBC app store app. The app is similar in functionality to the NBC app but the fonts, assets, and colors are different from the core NBC app. App still in development.',
+			projectImages:
+			[
+				'images/syfy_now_home.png',
+				'images/syfy_now_all_shows.png',
+				'images/syfy_now_signin.png',
+                'images/syfy_now_settings.png',
+				'images/syfy_now_show_detail.png'
+			]
+		},
+        {
+			projectName: 		'USA NOW',
+			projectDates: 		"March 2016 - Present",
+			projectDescription: 'Built app by implementing an iOS cascading sytle system which worked by applying cascading styles to the existing NBC app store app. The app is similar in functionality to the NBC app but the fonts, colors, isting NBC app store app. The app is similar in functionality to the NBC app but the fonts, assets, and colors are different from the core NBC app. App still in development.',
+			projectImages:
+			[
+				'images/usa_now_home.png',
+				'images/usa_now_all_shows.png',
+				'images/usa_now_signin.png',
+                'images/usa_now_settings.png',
+				'images/usa_now_show_detail.png'
+			]
+		},
+        {
+			projectName: 		'Bravo Now',
+			projectDates: 		"March 2016 - Present",
+			projectDescription: 'Built app by implementing an iOS cascading sytle system which worked by applying cascading styles to the existing NBC app store app. The app is similar in functionality to the NBC app but the fonts, colors, isting NBC app store app. The app is similar in functionality to the NBC app but the fonts, assets, and colors are different from the core NBC app. App still in development.',
+			projectImages:
+			[
+				'images/bravo_now_home.png',
+				'images/bravo_now_all_shows.png',
+				'images/bravo_now_signin.png',
+                'images/bravo_now_settings.png',
+				'images/bravo_now_show_detail.png'
+			]
+		},
 		{
 			projectName: 		'Well-Being Together™',
 			projectURL:  		'https://itunes.apple.com/us/app/wbtogether/id1044304918',
